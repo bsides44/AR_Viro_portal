@@ -1,6 +1,6 @@
 # AR_Viro_portal
 
-Awesome AR portal to a 3D beach image from Viro tutorial
+Awesome AR portal to a 3D beach image from a Viro tutorial.
 
 https://docs.viromedia.com/v2.0.0/docs/quick-start
 https://docs.viromedia.com/v2.0.0/docs/tutorial-ar
