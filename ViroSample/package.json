@@ -3,24 +3,19 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "prestart": "./node_modules/react-viro/bin/run_ngrok.sh",
+"prestart": "./node_modules/react-viro/bin/run_ngrok.sh",
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest"
   },
   "dependencies": {
-    "@babel/core": "^7.0.0",
-    "@babel/plugin-proposal-nullish-coalescing-operator": "^7.2.0",
-    "ajv": "^6.6.1",
-    "eslint": "^3.19.0",
-    "react": "^16.3.1",
-    "react-native": "^0.57.8",
-    "react-viro": "2.11.0",
-    "watchman": "^1.0.0"
+    "react": "16.3.1",
+    "react-native": "0.55.1",
+    "react-viro": "2.12.0"
   },
   "devDependencies": {
-    "babel-jest": "22.4.3",
-    "babel-preset-react-native": "5.0.2",
-    "jest": "22.4.3",
+    "babel-jest": "23.6.0",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "23.6.0",
     "react-test-renderer": "16.3.1"
   },
   "jest": {
