@@ -8,13 +8,17 @@
     "test": "jest"
   },
   "dependencies": {
-    "react": "16.3.1",
-    "react-native": "0.55.1",
-    "react-viro": "2.6.1"
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-proposal-nullish-coalescing-operator": "^7.2.0",
+    "ajv": "^6.6.1",
+    "eslint": "^3.19.0",
+    "react": "^16.3.1",
+    "react-native": "^0.55.1",
+    "react-viro": "2.11.0"
   },
   "devDependencies": {
     "babel-jest": "22.4.3",
-    "babel-preset-react-native": "4.0.0",
+    "babel-preset-react-native": "5.0.2",
     "jest": "22.4.3",
     "react-test-renderer": "16.3.1"
   },
