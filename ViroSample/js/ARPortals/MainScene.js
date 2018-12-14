@@ -26,11 +26,11 @@ var MainScene = createReactClass({
       <ViroAmbientLight color="#ffffff" intensity={200}/>
         <ViroPortalScene passable={true} dragType="FixedDistance" onDrag={()=>{}}>
           <ViroPortal position={[0, 0, -1]} scale={[.1, .1, .1]}>
-            <Viro3DObject source={require('/Users/maddystar/maddy_workspace/AR_Viro_portal/ViroSample/js/ARPortals/asset.vrx')}
+            {/* <Viro3DObject source={require('/Users/maddystar/maddy_workspace/AR_Viro_portal/ViroSample/js/ARPortals/asset.vrx')}
               resources={[require('./portal_res/portal_ship/portal_ship_diffuse.png'),
                           require('./portal_res/portal_ship/portal_ship_normal.png'),
                           require('./portal_res/portal_ship/portal_ship_specular.png')]}
-              type="VRX"/>
+              type="VRX"/> */}
           </ViroPortal>
           <Viro360Image source={require("./portal_res/360_island.jpg")} />
                 {/* <ViroPortal position={[0, 0, -1]} scale={[.1, .1, .1]}>

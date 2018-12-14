@@ -13,8 +13,9 @@
     "ajv": "^6.6.1",
     "eslint": "^3.19.0",
     "react": "^16.3.1",
-    "react-native": "^0.55.1",
-    "react-viro": "2.11.0"
+    "react-native": "^0.57.8",
+    "react-viro": "2.11.0",
+    "watchman": "^1.0.0"
   },
   "devDependencies": {
     "babel-jest": "22.4.3",
